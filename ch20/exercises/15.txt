@@ -1,0 +1,4 @@
+a) The reason is due to signed int being used for the struct member. The implementation signed integers
+in bit-field structs varies by compiler.
+
+b) Use unsigned int instead.

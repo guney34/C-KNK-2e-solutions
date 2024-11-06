@@ -1,0 +1,1 @@
+Tests for integers, incrementing from 0, that solves the equation i^2 - i - 12 = 0.

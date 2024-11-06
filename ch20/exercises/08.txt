@@ -1,0 +1,2 @@
+a) n bits from the right are 1, with the rest 0
+b) extracts a bit-field within i ending at the mth bit, with a length of n

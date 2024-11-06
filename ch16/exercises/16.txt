@@ -1,0 +1,9 @@
+a) true
+
+b) false, #define constants have global scope but enum constants don't
+
+c) true
+
+d) false, enum constants can have the same value
+
+e) true

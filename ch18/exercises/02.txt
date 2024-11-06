@@ -1,0 +1,5 @@
+a) extern
+
+b) static
+
+c) static and extern

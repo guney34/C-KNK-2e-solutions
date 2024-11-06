@@ -1,0 +1,21 @@
+a) static char **lookup(int level);
+storage class: static
+type specifier: char
+declarator: **lookup(int level)
+
+b) volatile unsigned long io_flags;
+type qualifier: volatile
+type specifiers: unsigned and long
+declarator: io_flags
+
+c) extern char *file_name[MAX_FILES], path[];
+storage class: extern
+type specifier: char
+declarators: *file_name[MAX_FILES] and path[]
+
+d) static const char token_buf[] = "";
+storage class: static
+type qualifier: const
+type specifier: char
+declarator: token_buf[]
+initialiser: ""

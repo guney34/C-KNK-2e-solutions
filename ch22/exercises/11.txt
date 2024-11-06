@@ -1,0 +1,4 @@
+It will compile but will have a different effect due to '!=' having higher precedence than '='
+
+The read character will be compared to EOF(-1), which will set ch to 1 or 0.
+ch will be 1 until EOF is read, which will assign 0 to ch.

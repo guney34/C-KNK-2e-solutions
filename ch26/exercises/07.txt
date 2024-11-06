@@ -1,0 +1,3 @@
+Converts the str pointed to by 'p' to a long int and stores it in 'value'.
+'p' is modified to point to the first character not converted.
+The number converted in 'p' is read as a base 10 number.

@@ -1,0 +1,18 @@
+a)
+Output if DEBUG is defined:
+Value of i : 1
+Value of j : 2
+Value of k : 3
+Value of i + j : 3
+Value of 2 * i + j - k : 1
+
+b)
+Output if DEBUG is not defined:
+
+c) 
+DEBUG is not defined so the second printf statement is executed and
+all of the uses of the PRINT_DEBUG macros are replaced by an empty character.
+
+d)
+Yes because the preprocessor executes directives line by line, so it won't know that
+DEBUG is defined later in file.

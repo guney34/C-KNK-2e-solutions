@@ -1,0 +1,16 @@
+a)
+They indicate internal identifiers used by the compiler and standard library, which shouldn't
+be used by a user program.
+Also, they are there to prevent name clashes with user code, since identifiers beginning with
+an underscore are reserved.
+
+b)
+The _ctype array contains a bitfield for each ASCII character, where the index is the int value of the character.
+The position of the bits correspond to the macros _UPPER, _LOWER, _DIGIT, etc..
+
+_ctype[9]  = 0b1010'1000
+_ctype[32] = 0b1010'0000
+_ctype[65] = 0b0100'0001
+
+c)
+Characters are represented as integer types so they can be used as an index for the array.

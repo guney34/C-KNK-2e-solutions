@@ -1,0 +1,1 @@
+Clang, by default, performs contractions within the same statement.

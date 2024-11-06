@@ -1,0 +1,3 @@
+The if statement is legal.
+when n is equal to 0, the condition is true
+since it reduces to 0 <= 10 for all n below 1.

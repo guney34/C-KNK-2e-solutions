@@ -1,0 +1,1 @@
+"10 - (total % 10)" can produce a two digit number, if t = 10

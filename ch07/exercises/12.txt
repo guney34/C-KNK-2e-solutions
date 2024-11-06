@@ -1,0 +1,2 @@
+i will be cast into a float before being added to f,
+then the result of i + f will be cast into a double before being stored in d

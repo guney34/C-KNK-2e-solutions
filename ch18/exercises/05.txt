@@ -1,0 +1,8 @@
+a) False, static variables inside functions have block scope.
+
+b) False, an extern variable can have external linkage.
+
+c) True, the only way for a variable to have internal linkage is for it to be declared static
+in the file, outside of a function.
+
+d) True, functions behave as if they are surrounded by curly braces.

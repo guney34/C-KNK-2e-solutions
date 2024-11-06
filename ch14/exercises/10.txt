@@ -1,0 +1,6 @@
+Writing complex functions as macros might not be ideal,
+ as they will confuse the compiler and be harder to debug.
+
+Functions with arguments that have side effects will behave differently
+ because they are evaluated every time they appear. This could also be bad for performance,
+ if the cost of evaluation is high.

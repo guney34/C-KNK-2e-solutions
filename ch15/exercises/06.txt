@@ -1,0 +1,11 @@
+a)
+main.c, f1.c and f2.c
+
+b)
+f1.c
+
+c)
+f1.c, main.c and f2.c
+
+d)
+f2.c and f1.c

@@ -1,0 +1,1 @@
+b) 0b1000001 is not legal in standard C but some compilers support it

@@ -1,0 +1,1 @@
+teenager = (age < 13 || age >= 20) ? false : true;

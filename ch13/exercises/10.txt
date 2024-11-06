@@ -1,0 +1,1 @@
+*q is uninitialised so it doesn't point to anywhere in memory

@@ -1,0 +1,6 @@
+They produce the same output.
+
+'.4' sets the minimum digit length by adding extract zeros to the left
+
+'04d' adds padding to the left of the number to achieve a minimum string length.
+The '0' specifies the padding character to be '0'.

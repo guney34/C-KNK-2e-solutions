@@ -1,0 +1,3 @@
+Pointer arithmetic doesn't allow for pointers to be added together.
+
+middle = low + (high - low)/2

@@ -1,0 +1,6 @@
+According to the C99 standard:
+
+"The array shall consist of:
+    all the elements that compare less than,
+    all the elements that compare equal to, 
+    and all the elements that compare greater than the key object, in that order."

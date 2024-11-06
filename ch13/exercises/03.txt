@@ -1,0 +1,3 @@
+i = 12
+s = "abc34" (or truncated if s has a smaller size)
+j = 56

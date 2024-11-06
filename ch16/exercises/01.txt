@@ -1,0 +1,3 @@
+Individually the declarations are legal because struct members exist in their own namespace.
+
+Both declarations are also legal because there is a separate member namespace for each struct.

@@ -1,0 +1,3 @@
+The statment is legal.
+For n=5, the condition is false and nothing is printed, 
+because the condition is only true if n is equal to -9.

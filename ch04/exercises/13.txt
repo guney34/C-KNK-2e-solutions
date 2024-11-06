@@ -1,0 +1,6 @@
+++i is equivalent to i += 1 because:
+
+i += 1 is equivalent to i = i + 1,
+and '=' has lower precedence than '+',
+therefore 1 is added to i before i is expressed,
+exactly like ++i.

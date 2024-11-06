@@ -1,0 +1,1 @@
+That macro evaluates c twice, which is illegal for macros that substitute for library functions.

@@ -1,0 +1,4 @@
+a) memmove, since the destination overlaps with the source
+b) memmove, since the destination overlaps with the source
+c) strncpy
+d) memcpy

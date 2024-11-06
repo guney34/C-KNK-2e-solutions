@@ -1,0 +1,6 @@
+declaration: arr[10]
+arr[0] equivalent to arr['0'-'0']
+arr[1] equivalent to arr['1'-'0']
+...
+arr[8] equivalent to arr['8'-'0']
+arr[9] equivalent to arr['9'-'0']

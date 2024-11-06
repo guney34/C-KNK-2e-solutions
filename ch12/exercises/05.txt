@@ -1,0 +1,4 @@
+a) illegal, mismatched type
+b) true
+c) true
+d) true

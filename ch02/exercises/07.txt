@@ -1,0 +1,2 @@
+a)for, b)if and e)while are keywords.
+c)main and d)printf are identifiers

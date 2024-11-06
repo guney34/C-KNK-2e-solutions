@@ -1,0 +1,2 @@
+The macro needs to come after the function prototype,
+ otherwise the macro will expand in the function prototype.

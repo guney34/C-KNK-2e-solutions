@@ -1,0 +1,4 @@
+a) illegal; p is not a char
+b) legal; output: a
+c) legal; output: abc\n
+d) illegal; *p is equal to 'a' which is a char, not char*

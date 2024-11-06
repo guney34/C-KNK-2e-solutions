@@ -1,0 +1,8 @@
+calls that don't work:
+
+b) %c requires char but "\n" is a char*
+c) %s requires char*  but '\n' is a char
+e) the first argument of printf needs to be a string (char*)
+h) putchar requires the argument to be a char not char*
+i) argument needs to be a char*
+j) puts automatically adds an extra new-line, so this call will create two new-lines

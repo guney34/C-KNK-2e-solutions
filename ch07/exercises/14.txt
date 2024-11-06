@@ -1,0 +1,2 @@
+No, some precision can be lost by casting to int if f is large enough,
+ depending on the size of int.

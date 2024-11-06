@@ -1,0 +1,8 @@
+a)
+If assertions are used to test for logically impossible conditions, an assertion failure, in such a case,
+implies a bug in the code, rather than an external error.
+
+b)
+Failed memory allocation
+Bad user input
+Problems from external dependencies

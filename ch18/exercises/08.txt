@@ -1,0 +1,9 @@
+a) x is an array of 10 function pointers, which have an int parameter and returns a char
+
+b) x is a function with an int parameter, which returns a pointer to an array of  5 ints
+
+c) x is a function with no parameters, which returns a pointer to a function with an int argument
+and returns a float pointer
+
+d) x is a function with signature (int, void (*y)(int)), which returns a pointer to a function
+that has an int argument and no return value.

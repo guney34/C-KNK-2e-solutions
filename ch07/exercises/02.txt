@@ -1,0 +1,5 @@
+a) 010E2           Legal floating-point constant
+b) 32.1E+5         Legal floating-point constant
+c) 0790            Illegal 
+d) 100_000         Illegal
+e) 3.978e-2        Legal floating-point constant

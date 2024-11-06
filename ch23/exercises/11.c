@@ -1,0 +1,1 @@
+memset(str + strlen(str) - n, '!', n);

@@ -1,0 +1,3 @@
+xor with a bitmask that is 1 in the flipped digit and 0 elsewhere
+
+i ^= 0x0010;

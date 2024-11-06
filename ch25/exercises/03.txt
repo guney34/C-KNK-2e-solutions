@@ -1,0 +1,1 @@
+No because, for Shift-JIS, the second-byte of a two-byte character can represent a single-byte character.

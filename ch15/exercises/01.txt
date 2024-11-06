@@ -1,0 +1,9 @@
+a) 
+It allows you to create a header file for each source file,
+which makes it easier to know which functions and variables can be used externally.
+
+It can make it easier to spot unnecessary dependencies.
+
+b)
+Jumping between files constantly can cost more time and negatively affect readability,
+especially if it's done excessively.

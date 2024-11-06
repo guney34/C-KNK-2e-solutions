@@ -1,0 +1,4 @@
+a) equivalent: white-space in format will match with any number of white-spaces, including none
+b) equivalent: same reasoning
+c) not equivalent: right side requires an input of at least one white-space at the end
+d) equivalent: same reasoning as a)

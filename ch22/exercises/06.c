@@ -1,0 +1,1 @@
+printf(widget == 1 ? "%d widget\n" : "%d widgets\n", widget);

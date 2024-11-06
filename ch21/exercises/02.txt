@@ -1,0 +1,16 @@
+In ctype.h:
+
+    #if defined _CRT_DISABLE_PERFCRIT_LOCKS && !defined _DLL && !defined __cplusplus
+        #define isalpha(c)  (MB_CUR_MAX > 1 ? _isctype(c, _ALPHA) : __chvalidchk(c, _ALPHA))
+        #define isupper(c)  (MB_CUR_MAX > 1 ? _isctype(c, _UPPER) : __chvalidchk(c, _UPPER))
+        #define islower(c)  (MB_CUR_MAX > 1 ? _isctype(c, _LOWER) : __chvalidchk(c, _LOWER))
+        #define isdigit(c)  (MB_CUR_MAX > 1 ? _isctype(c, _DIGIT) : __chvalidchk(c, _DIGIT))
+        #define isxdigit(c) (MB_CUR_MAX > 1 ? _isctype(c, _HEX)   : __chvalidchk(c, _HEX))
+        #define isspace(c)  (MB_CUR_MAX > 1 ? _isctype(c, _SPACE) : __chvalidchk(c, _SPACE))
+        #define ispunct(c)  (MB_CUR_MAX > 1 ? _isctype(c, _PUNCT) : __chvalidchk(c, _PUNCT))
+        #define isblank(c)  (MB_CUR_MAX > 1 ? (((c) == '\t') ? _BLANK : _isctype(c, _BLANK)) : (((c) == '\t') ? _BLANK : __chvalidchk(c, _BLANK)))
+        #define isalnum(c)  (MB_CUR_MAX > 1 ? _isctype(c, _ALPHA | _DIGIT) : __chvalidchk(c, (_ALPHA | _DIGIT)))
+        #define isprint(c)  (MB_CUR_MAX > 1 ? _isctype(c, _BLANK | _PUNCT | _ALPHA | _DIGIT) : __chvalidchk(c, (_BLANK | _PUNCT | _ALPHA | _DIGIT)))
+        #define isgraph(c)  (MB_CUR_MAX > 1 ? _isctype(c, _PUNCT | _ALPHA | _DIGIT) : __chvalidchk(c, (_PUNCT | _ALPHA | _DIGIT)))
+        #define iscntrl(c)  (MB_CUR_MAX > 1 ? _isctype(c, _CONTROL) : __chvalidchk(c, _CONTROL))
+    #endif

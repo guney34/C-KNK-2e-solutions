@@ -1,0 +1,10 @@
+MSVC supported locales:
+
+"language[_country-region[.code-page]]"
+    -e.g: "English_United States.1252"
+".code-page"
+    -e.g: ".UTF8"
+"localename"
+    -e.g: "en-GB"
+"C"
+""

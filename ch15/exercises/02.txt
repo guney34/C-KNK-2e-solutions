@@ -1,0 +1,2 @@
+b) Function definitions should not be put in a header file because
+it would cause a function redefinition if the header is included multiple times.

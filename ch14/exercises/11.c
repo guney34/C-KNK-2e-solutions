@@ -1,0 +1,1 @@
+#define ERROR(string, ...) fprintf(stderr, (string), __VA_ARGS__)

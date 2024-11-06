@@ -1,0 +1,22 @@
+a)
+n = 3
+i = 10
+x = 20.0f
+j = 30
+
+b)
+n = 3
+i = 1
+x = 0.0f
+j = 2
+
+c)
+n = 3
+i = 0
+x = 0.1f
+j = 0
+
+d)
+n = 0
+
+i, x and j are unchanged.

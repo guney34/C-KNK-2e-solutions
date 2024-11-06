@@ -1,0 +1,14 @@
+a) legal
+
+b) legal
+
+c) illegal
+s.u.rectangle.height = 25;
+
+d) legal
+
+e) illegal
+s.u.circle.radius = 5;
+
+f) illegal
+s.u.circle.radius = 5;

@@ -1,0 +1,2 @@
+a) #define AVG(x,y) (((x) + (y))/2)
+b) #define AREA(x,y) ((x)*(y))

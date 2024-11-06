@@ -1,0 +1,4 @@
+"%1s" will read two characters into a char array: the first nonblank character followed
+by a null character
+
+" %c" just reads the first nonblank character into a char variable

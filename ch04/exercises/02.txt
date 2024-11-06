@@ -1,0 +1,1 @@
+Same value because integer division is always truncated in C99+

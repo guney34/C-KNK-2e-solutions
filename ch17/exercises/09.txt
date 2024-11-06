@@ -1,0 +1,1 @@
+True; (&x)->a expands to *(&x).a where the operators cancel out to x.a

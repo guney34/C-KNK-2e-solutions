@@ -1,0 +1,47 @@
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt
+
+C11 standard library headers:
+    stdalign.h: keywords for querying an specifying allignment, which became language features in C23
+    stdnoreturn.h: keyword for specifying that a function does not return via 'return'; language feature in C23
+    uchar.h: Type and functions for unicode characters
+    fenv.h: Floating point environment library
+
+Microsoft C runtime library headers:
+
+    corecrt.h
+    corecrt_io.h
+    corecrt_malloc.h
+    corecrt_math.h
+    corecrt_math_defines.h
+    corecrt_memcpy_s.h
+    corecrt_memory.h
+    corecrt_search.h
+    corecrt_share.h
+    corecrt_startup.h
+    corecrt_stdio_config.h
+    corecrt_terminate.h
+    corecrt_wconio.h
+    corecrt_wctype.h
+    corecrt_wdirect.h
+    corecrt_wio.h
+    corecrt_wprocess.h
+    corecrt_wstdio.h
+    corecrt_wstdlib.h
+    corecrt_wstring.h
+    corecrt_wstring.h
+    corecrt_wtime.h
+    crtdbg.h
+
+conio.h: Microsoft DOS library; console IO functions.
+direct.h: Microsoft library for directory handling and creation.
+dos.h: library for DOS systems
+io.h: low-level io functions
+fcntl.h: file control opens for functions in io.h
+malloc.h: stack allocation functions
+mbctype.h: Multi-byte character functions and macros
+mbstring.h: Functions and macros for multi-byte character string manipulation
+memory.h: includes "corecrt_memory.h"
+minmax.h: defines min and max macros
+process.h: functions and macros for working with threads and processes
+search.h: includes "corecrt_search.h
+share.h: includes "corecrt_share.h"

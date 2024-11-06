@@ -1,0 +1,21 @@
+Determined from the requirement that (a/b)*b + a%b must always be equal to a, for integers.
+i.e, a%b = a - (a/b)*b
+
+a) 3
+b) -3 or 2
+
+-8/5 = -1 or -2
+(-8/5)*5 = -5 or -10
+-8%5 = -3 or 2
+
+c) 3 or -2
+
+8/-5 = -1 or -2
+(8/-5)*-5 = 5 or 10
+8%-5 = 3 or -2
+
+d) -3 or 2
+
+-8/-5 = 1 or 2
+(-8/-5)*-5 = -5 or -10
+-8%5 = -3 or 2

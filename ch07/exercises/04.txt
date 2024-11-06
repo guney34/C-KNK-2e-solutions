@@ -1,0 +1,1 @@
+d) printf(c); is illegal

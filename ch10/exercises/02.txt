@@ -1,0 +1,4 @@
+a) c, b (local), d
+b) b, c (local), a (parameter)
+c) a (local in block), d, c (local in function), b
+d) c (local), b, d
